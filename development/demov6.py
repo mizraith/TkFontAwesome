@@ -38,7 +38,7 @@ icons = [
 ]
 
 root = tk.Tk()
-images = []
+images = []  # NOTE that you need to retain your icons (as a global or class variable) to keep it in scope.
 
 for i, row in enumerate(icons):
     root.rowconfigure(i, weight=1)
