@@ -17,7 +17,9 @@ in your tkinter application.
 ### Fork differences
 1. This fork removes sci-kit as a build environment as it seemed to be polluting the installation with lots of unnecesarry libraries.
 
-2. This version uses the hatch build system.   <hatch build .>
+2. This version uses the hatch build system.   hatch build .
+
+3. Loads into pypi as a package:  tkfontawesome_mizraith
 
 ## More info
 You may use any of the 2k+ _free_ [FontAwesome 6.5 icons](https://fontawesome.com/v6/icons?o=r&m=free). 
