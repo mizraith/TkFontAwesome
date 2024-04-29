@@ -1,7 +1,7 @@
 import io
 import tksvg
 from lxml import etree
-from tkfontawesome.svgs import FA, FA_aliases
+from tkfontawesome_mizraith.svgs import FA, FA_aliases
 
 
 def icon_to_image(name, fill=None, scale_to_width=None, scale_to_height=None, scale=1):
@@ -38,7 +38,7 @@ def icon_to_image(name, fill=None, scale_to_width=None, scale_to_height=None, sc
 
         ```python
         import tkinter as tk
-        from tkfontawesome import icon_to_image
+        from tkfontawesome_mizraith import icon_to_image
 
         root = tk.Tk()
         img = icon_to_image("facebook", fill="#4267B2", scale_to_width=64)

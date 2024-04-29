@@ -14,6 +14,12 @@
 A library that enables you to use [FontAwesome icons](https://fontawesome.com/v6/icons?o=r&m=free) 
 in your tkinter application. 
 
+### Fork differences
+1. This fork removes sci-kit as a build environment as it seemed to be polluting the installation with lots of unnecesarry libraries.
+
+2. This version uses the hatch build system.   <hatch build .>
+
+## More info
 You may use any of the 2k+ _free_ [FontAwesome 6.5 icons](https://fontawesome.com/v6/icons?o=r&m=free). 
 The **fill color** and **size** are customized to your specifications and then converted
 to an object via [tksvg](https://pypi.org/project/tksvg/) that can be used anywhere you would use a `tkinter.PhotoImage` object.
@@ -23,14 +29,14 @@ to an object via [tksvg](https://pypi.org/project/tksvg/) that can be used anywh
 ## Installation
 
 ```shell
-python -m pip install tkfontawesome
+python -m pip install tkfontawesome_mizraith
 ```
 
 ## Usage
 
 ```python
 import tkinter as tk
-from tkfontawesome import icon_to_image
+from tkfontawesome_mizraith import icon_to_image
 
 root = tk.Tk()
 fb = icon_to_image("facebook", fill="#4267B2", scale_to_width=64)

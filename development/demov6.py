@@ -1,4 +1,4 @@
-from tkfontawesome import icon_to_image
+from tkfontawesome_mizraith import icon_to_image
 import tkinter as tk
 from ctypes import windll
 
