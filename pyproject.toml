@@ -1,6 +1,6 @@
 [project]
 name = "tkfontawesome_mizraith"
-version = "0.3"
+version = "0.3.1"
 authors = [{name = "Israel Dryer", email = "israel.dryer@gmail.com"},
     {name = "Red Byer", email = "rojo09@redstoyland.com"}]
 description ="Use any of the 2k+ free FontAwesome icons in your tkinter application without the scikit bloatware."
