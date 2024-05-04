@@ -21,6 +21,8 @@ in your tkinter application.
 
 3. Loads into pypi as a package:  tkfontawesome_mizraith
 
+4. Added pre-built wheels (for now) into the package because as of 2024 tksvg is broken and will not compile/instal on Mac OS or Linux.  You can install tksvg manually from these wheels.   Thanks to: https://github.com/mcha-forks/python-tksvg/actions/runs/8101063696 
+
 ## More info
 You may use any of the 2k+ _free_ [FontAwesome 6.5 icons](https://fontawesome.com/v6/icons?o=r&m=free). 
 The **fill color** and **size** are customized to your specifications and then converted

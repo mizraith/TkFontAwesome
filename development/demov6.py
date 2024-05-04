@@ -1,8 +1,16 @@
 from tkfontawesome_mizraith import icon_to_image
 import tkinter as tk
-from ctypes import windll
 
-windll.user32.SetProcessDPIAware()
+from sys import platform
+if platform == 'win32':
+    # NOTE: My testing indicated that this wasn't even needed.
+    from ctypes import windll
+    windll.user32.SetProcessDPIAware()
+elif platform == 'darwin':
+    pass
+elif platform in ['linux', 'linux2']:
+    pass
+
 
 icons = [
     (

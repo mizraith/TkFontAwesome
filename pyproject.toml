@@ -1,7 +1,8 @@
 [project]
 name = "tkfontawesome_mizraith"
 version = "0.3"
-authors = [{name = "Israel Dryer", email = "israel.dryer@gmail.com"}]
+authors = [{name = "Israel Dryer", email = "israel.dryer@gmail.com"},
+    {name = "Red Byer", email = "rojo09@redstoyland.com"}]
 description ="Use any of the 2k+ free FontAwesome icons in your tkinter application without the scikit bloatware."
 keywords = ["svg", "fontawesome", "icons", "tkinter", "ttk"]
 readme = "README.md"
